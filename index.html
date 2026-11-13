@@ -2,12 +2,474 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="0; url=https://dajeongjaega.github.io/dajeong-blog/">
-<link rel="canonical" href="https://dajeongjaega.github.io/dajeong-blog/">
-<title>다정재가복지센터</title>
-<script>location.replace("https://dajeongjaega.github.io/dajeong-blog/");</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>다정재가복지센터 | 밀양 방문간호·방문요양·방문목욕</title>
+<meta name="description" content="경상남도 밀양시 다정재가복지센터. 간호사가 운영하는 재가노인복지시설로 방문간호, 방문요양, 방문목욕을 어르신 1:1 맞춤으로 제공합니다. 상담 055-354-8777">
+<meta name="theme-color" content="#fbf7f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1916" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="다정재가복지센터">
+<meta property="og:description" content="집에서 받는 다정한 돌봄. 밀양 방문간호·방문요양·방문목욕">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Ccircle cx='36' cy='20' r='9' fill='%23E8735A'/%3E%3Ccircle cx='84' cy='20' r='9' fill='%23F2A97A'/%3E%3Cpath d='M58 106 L58 58 C54 46 46 40 36 40 C20 40 14 58 22 72 C28 84 42 96 58 106Z' fill='%23E8735A'/%3E%3Cpath d='M62 106 L62 58 C66 46 74 40 84 40 C100 40 106 58 98 72 C92 84 78 96 62 106Z' fill='%23F2A97A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&family=Gowun+Dodum&display=swap">
+<style>
+:root{
+  --surface-100:#fbf7f1;--surface-000:#ffffff;--surface-200:#f3ebe0;
+  --ink:#2b2118;--ink-muted:#5c4e43;--line:#d9cbbb;--line-strong:#8a7868;
+  --brand:#b04a2b;--brand-ink:#ffffff;--brand-soft:#f8e4da;--brand-strong:#8c3720;
+  --logo-coral:#e8735a;--logo-peach:#f2a97a;
+  --care:#2f6b4f;--care-ink:#ffffff;--care-soft:#e2efe7;--focus:#1f5fa8;
+  --footer-bg:#2b2118;--footer-ink:#f4ede4;--footer-muted:#c9bcae;
+  --shadow-card:0 2px 8px rgba(60,40,20,.08);--shadow-bar:0 -2px 12px rgba(60,40,20,.10);
+  --radius-sm:8px;--radius-md:14px;--radius-lg:24px;--radius-pill:999px;
+  --font-sans:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --font-wordmark:"Gowun Dodum","Noto Sans KR",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --surface-100:#1c1916;--surface-000:#26221e;--surface-200:#2f2a25;
+    --ink:#f4ede4;--ink-muted:#c9bcae;--line:#4a423a;--line-strong:#9a8a7b;
+    --brand:#f08a66;--brand-ink:#1c1916;--brand-soft:#3d2a22;--brand-strong:#ffb79c;
+    --care:#7cc4a0;--care-ink:#1c1916;--care-soft:#22332a;--focus:#8ab8f0;
+    --footer-bg:#141210;--footer-ink:#f4ede4;--footer-muted:#c9bcae;
+    --shadow-card:0 2px 8px rgba(0,0,0,.4);--shadow-bar:0 -2px 12px rgba(0,0,0,.5);
+    color-scheme:dark;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--surface-100);color:var(--ink);font-family:var(--font-sans);font-size:1.125rem;line-height:1.6;word-break:keep-all;overflow-wrap:break-word}
+img,svg{display:block}
+a{color:var(--brand)}
+a:hover{color:var(--brand-strong)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:4px}
+h1,h2,h3,p{margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-9999px;top:8px;background:var(--surface-000);padding:12px 16px;z-index:100}
+.skip:focus{left:8px}
+
+/* logo */
+.logo{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+.logo svg{width:40px;height:40px;flex:none}
+.logo span{font-family:var(--font-wordmark);font-size:1.5rem;line-height:1.2}
+.logo:hover{color:var(--ink)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:56px;padding:0 28px;border-radius:var(--radius-md);font:inherit;font-size:1.0625rem;font-weight:700;text-decoration:none;border:2px solid transparent;cursor:pointer;line-height:1.3;text-align:center}
+.btn svg{width:22px;height:22px;flex:none}
+.btn-primary{background:var(--brand);color:var(--brand-ink)}
+.btn-primary:hover{background:var(--brand-strong);color:var(--brand-ink)}
+.btn-secondary{background:var(--surface-000);color:var(--ink);border-color:var(--line-strong);font-weight:600}
+.btn-secondary:hover{color:var(--ink);background:var(--surface-200)}
+.btn-pill{border-radius:var(--radius-pill)}
+.btn-block{display:flex;width:100%}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:50;background:var(--surface-000);border-bottom:1px solid var(--line)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px}
+.nav{display:flex;gap:4px}
+.nav a{padding:12px 14px;font-size:1.0625rem;font-weight:600;color:var(--ink);text-decoration:none;border-radius:var(--radius-sm)}
+.nav a:hover{background:var(--surface-200)}
+.header-call{min-height:52px;padding:0 22px}
+.menu-btn{display:none;width:56px;height:56px;border:0;background:transparent;color:var(--ink);border-radius:var(--radius-md);cursor:pointer;align-items:center;justify-content:center}
+.menu-btn svg{width:28px;height:28px}
+.mobile-nav{display:none}
+
+.notice{background:var(--care-soft)}
+.notice p{padding:12px 0;font-size:1rem;line-height:1.5}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:48px;padding:80px 24px}
+.hero-text{display:flex;flex-direction:column;gap:24px}
+.eyebrow{align-self:flex-start;padding:4px 14px;border-radius:var(--radius-pill);background:var(--brand-soft);color:var(--brand-strong);font-size:1rem;font-weight:600}
+.hero h1{font-size:clamp(2.25rem,4.5vw,3rem);line-height:1.25;font-weight:700;letter-spacing:-.5px}
+.hero-lead{font-size:1.25rem;line-height:1.6;max-width:560px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero-art{position:relative;aspect-ratio:1/1;max-height:440px;width:100%;border-radius:var(--radius-lg);background:var(--brand-soft);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.hero-art .shape{position:absolute;border-radius:var(--radius-pill)}
+.s1{left:-40px;top:11%;width:46%;height:13%;background:var(--logo-peach)}
+.s2{right:-24px;bottom:14%;width:55%;height:13%;background:var(--logo-coral)}
+.s3{right:13%;top:9%;width:11%;aspect-ratio:1;background:var(--logo-coral)}
+.hero-badge{position:relative;width:60%;aspect-ratio:1;border-radius:50%;background:var(--surface-000);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-card)}
+.hero-badge svg{width:70%;height:70%}
+
+/* sections */
+.section{padding:80px 0}
+.section-alt{background:var(--surface-000);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.section-warm{background:var(--surface-200)}
+.section-head{display:flex;flex-direction:column;gap:8px;margin-bottom:40px}
+.section-head h2{font-size:clamp(1.625rem,3vw,2rem);line-height:1.3;font-weight:700}
+.muted{color:var(--ink-muted)}
+.small{font-size:.9375rem;line-height:1.5}
+
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.card{background:var(--surface-000);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-card);display:flex;flex-direction:column}
+.card-head{background:var(--care-soft);padding:20px 24px;display:flex;align-items:center;gap:12px}
+.card-head svg{width:28px;height:28px;color:var(--care);flex:none}
+.card-head h3{font-size:1.5rem;line-height:1.3;font-weight:700}
+.card-body{padding:24px;display:flex;flex-direction:column;gap:16px;flex:1}
+.card-body .btn{margin-top:auto}
+
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.step{background:var(--surface-000);border:1px solid var(--line);border-radius:var(--radius-lg);padding:24px;display:flex;flex-direction:column;gap:12px}
+.step-num{width:48px;height:48px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:flex;align-items:center;justify-content:center;font-size:1.375rem;font-weight:700}
+.step:last-child .step-num{background:var(--care);color:var(--care-ink)}
+.step h3{font-size:1.375rem;line-height:1.4;font-weight:600}
+
+.about{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:start}
+.about-text{display:flex;flex-direction:column;gap:16px}
+.about-text h2{font-size:clamp(1.625rem,3vw,2rem);line-height:1.3;font-weight:700}
+.kicker{font-size:1rem;font-weight:600;color:var(--brand-strong)}
+.logo-meaning{background:var(--surface-000);border-radius:var(--radius-lg);padding:32px;display:flex;gap:24px;align-items:flex-start}
+.logo-meaning svg{width:72px;height:72px;flex:none}
+.logo-meaning h3{font-size:1.375rem;line-height:1.4;font-weight:600;margin-bottom:8px}
+
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.contact-info{display:flex;flex-direction:column;gap:24px}
+.contact-info h2{font-size:clamp(1.625rem,3vw,2rem);line-height:1.3;font-weight:700}
+.map-card{border-radius:var(--radius-lg);background:var(--surface-200);padding:28px;display:flex;flex-direction:column;gap:16px}
+.map-card .addr{font-size:1.25rem;font-weight:700;line-height:1.5}
+.map-links{display:flex;flex-wrap:wrap;gap:8px}
+.map-links .btn{min-height:52px;padding:0 20px;font-size:1rem}
+.info{margin:0;display:grid;grid-template-columns:80px 1fr;gap:10px 16px}
+.info dt{font-weight:600}
+.info dd{margin:0}
+.info a{font-weight:700}
+
+.form{background:var(--surface-000);border:1px solid var(--line);border-radius:var(--radius-lg);padding:32px;display:flex;flex-direction:column;gap:22px;box-shadow:var(--shadow-card)}
+.form h2{font-size:1.625rem;line-height:1.4;font-weight:700}
+.field{display:flex;flex-direction:column;gap:8px}
+.label{font-size:1.0625rem;font-weight:600}
+.input{min-height:56px;padding:0 16px;border:2px solid var(--line-strong);border-radius:var(--radius-sm);font:inherit;background:var(--surface-000);color:var(--ink);width:100%}
+.input:focus{outline:3px solid var(--focus);outline-offset:1px}
+.field.error .input{border-color:#b3261e}
+.field-msg{font-size:.9375rem;color:#b3261e;font-weight:600;display:none}
+@media (prefers-color-scheme:dark){.field.error .input{border-color:#ff9a8f}.field-msg{color:#ff9a8f}}
+.field.error .field-msg{display:block}
+fieldset{margin:0;padding:0;border:0;min-width:0}
+legend{padding:0;margin-bottom:10px;font-size:1.0625rem;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;width:1px;height:1px}
+.chip span{display:inline-flex;align-items:center;gap:6px;min-height:52px;padding:0 20px;border-radius:var(--radius-pill);border:2px solid var(--line-strong);background:var(--surface-000);font-size:1.0625rem;font-weight:600;cursor:pointer}
+.chip span svg{width:18px;height:18px;display:none}
+.chip input:checked+span{border-color:var(--brand);background:var(--brand-soft);color:var(--brand-strong)}
+.chip input:checked+span svg{display:block}
+.chip input:focus-visible+span{outline:3px solid var(--focus);outline-offset:2px}
+.form-result{display:none;border-radius:var(--radius-md);background:var(--brand-soft);padding:20px;gap:12px;flex-direction:column}
+.form-result.show{display:flex}
+
+.site-footer{background:var(--footer-bg);color:var(--footer-ink)}
+.footer-inner{padding:48px 24px calc(48px + env(safe-area-inset-bottom));display:flex;flex-wrap:wrap;gap:32px;justify-content:space-between}
+.site-footer .logo{color:var(--footer-ink)}
+.site-footer .logo svg{width:36px;height:36px}
+.site-footer .logo span{font-size:1.375rem}
+.footer-meta{font-size:.9375rem;line-height:1.7;color:var(--footer-muted)}
+.footer-meta a{color:var(--footer-ink)}
+
+.callbar{display:none}
+
+/* tablet */
+@media (max-width:1024px){
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nav{display:none}
+  .menu-btn{display:inline-flex}
+  .header-right{display:flex;align-items:center;gap:8px}
+  .mobile-nav.open{display:block;border-top:1px solid var(--line);background:var(--surface-000)}
+  .mobile-nav ul{list-style:none;margin:0;padding:8px 24px 16px;display:flex;flex-direction:column}
+  .mobile-nav a{display:flex;align-items:center;min-height:56px;font-size:1.125rem;font-weight:600;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .mobile-nav li:last-child a{border-bottom:0}
+}
+/* phone */
+@media (max-width:720px){
+  body{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
+  .wrap{padding:0 16px}
+  .header-inner{min-height:64px}
+  .logo svg{width:34px;height:34px}
+  .logo span{font-size:1.25rem}
+  .header-call{display:none}
+  .mobile-nav ul{padding:8px 16px 16px}
+  .hero{grid-template-columns:1fr;padding:40px 16px 48px;gap:32px}
+  .hero-art{order:-1;max-height:none;aspect-ratio:16/10}
+  .hero-badge{width:auto;height:72%}
+  .hero-lead{font-size:1.1875rem}
+  .actions .btn{flex:1 1 100%}
+  .section{padding:56px 0}
+  .section-head{margin-bottom:28px}
+  .cards,.steps{grid-template-columns:1fr;gap:16px}
+  .about,.contact{grid-template-columns:1fr;gap:32px}
+  .logo-meaning{padding:24px;flex-direction:column;gap:16px}
+  .form{padding:24px 20px}
+  .info{grid-template-columns:64px 1fr}
+  .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--surface-000);box-shadow:var(--shadow-bar);border-top:1px solid var(--line)}
+  .callbar-text{display:flex;flex-direction:column;line-height:1.3}
+  .callbar-text small{font-size:.9375rem;color:var(--ink-muted)}
+  .callbar-text strong{font-size:1.375rem;color:var(--brand-strong)}
+}
+</style>
 </head>
 <body>
-<p>다정재가복지센터 블로그로 이동 중입니다. 자동으로 이동하지 않으면 <a href="https://dajeongjaega.github.io/dajeong-blog/">여기</a>를 눌러주세요.</p>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="logo" viewBox="0 0 120 120">
+    <circle cx="36" cy="20" r="9" fill="#E8735A"/>
+    <circle cx="84" cy="20" r="9" fill="#F2A97A"/>
+    <path d="M58 106 L58 58 C54 46 46 40 36 40 C20 40 14 58 22 72 C28 84 42 96 58 106Z" fill="#E8735A"/>
+    <path d="M62 106 L62 58 C66 46 74 40 84 40 C100 40 106 58 98 72 C92 84 78 96 62 106Z" fill="#F2A97A"/>
+  </symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M20 6L9 17l-5-5"/></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top" aria-label="다정재가복지센터 처음으로">
+      <svg aria-hidden="true"><use href="#logo"/></svg>
+      <span>다정재가복지센터</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#about">센터 소개</a>
+      <a href="#services">서비스 안내</a>
+      <a href="#steps">이용 절차</a>
+      <a href="#contact">오시는 길</a>
+      <a href="https://dajeongjaega.github.io/dajeong-blog/">소식</a>
+    </nav>
+    <div class="header-right">
+      <a class="btn btn-primary btn-pill header-call" href="tel:0553548777" aria-label="다정재가복지센터에 전화하기, 055-354-8777">
+        <svg aria-hidden="true"><use href="#i-phone"/></svg>055-354-8777
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="메뉴 열기">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="ic-open" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="모바일 메뉴">
+    <ul>
+      <li><a href="#about">센터 소개</a></li>
+      <li><a href="#services">서비스 안내</a></li>
+      <li><a href="#steps">이용 절차</a></li>
+      <li><a href="#contact">오시는 길·상담 신청</a></li>
+      <li><a href="https://dajeongjaega.github.io/dajeong-blog/">센터 소식 (블로그)</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="notice">
+  <div class="wrap"><p>장기요양기관 지정 절차를 진행하고 있습니다. 개소 일정은 소식으로 알려드리며, 상담은 지금도 받습니다.</p></div>
+</div>
+
+<main id="main">
+  <section id="top" class="wrap hero" aria-labelledby="hero-title">
+    <div class="hero-text">
+      <span class="eyebrow">어르신 1:1 맞춤 돌봄서비스 전문</span>
+      <h1 id="hero-title">집에서 받는<br>다정한 돌봄</h1>
+      <p class="hero-lead">내 부모, 내 가족처럼 한결같은 마음으로 모시겠습니다. 경상남도 밀양시에서 방문간호·방문요양·방문목욕을 제공합니다.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#contact">상담 신청하기</a>
+        <a class="btn btn-secondary" href="#services">서비스 안내 보기</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <span class="shape s1"></span><span class="shape s2"></span><span class="shape s3"></span>
+      <div class="hero-badge"><svg><use href="#logo"/></svg></div>
+    </div>
+  </section>
+
+  <section id="services" class="section section-alt" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="services-title">이런 돌봄을 해 드립니다</h2>
+        <p class="muted">어르신 한 분 한 분의 상황에 맞춰 세 가지 서비스를 함께 또는 따로 이용하실 수 있습니다.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-head">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 2v2M5 2v2M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg>
+            <h3>방문간호</h3>
+          </div>
+          <div class="card-body">
+            <p>간호사가 댁을 방문해 혈압·혈당 확인, 상처 관리, 복약 지도 등 건강을 살펴 드립니다.</p>
+            <p class="small muted">의사의 방문간호지시서가 필요합니다. 발급 방법도 안내해 드립니다.</p>
+            <a class="btn btn-secondary btn-block" href="#contact" data-service="방문간호">방문간호 문의하기</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-head">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M12 18s-3-1.8-3-3.6A1.6 1.6 0 0 1 12 13a1.6 1.6 0 0 1 3 1.4c0 1.8-3 3.6-3 3.6z"/></svg>
+            <h3>방문요양</h3>
+          </div>
+          <div class="card-body">
+            <p>요양보호사가 댁으로 찾아가 식사, 청소, 세면, 병원 동행 등 일상생활을 도와 드립니다.</p>
+            <p class="small muted">장기요양등급을 받으신 어르신이 이용하실 수 있습니다.</p>
+            <a class="btn btn-secondary btn-block" href="#contact" data-service="방문요양">방문요양 문의하기</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-head">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16a1 1 0 0 1 1 1v2a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-2a1 1 0 0 1 1-1z"/><path d="M6 12V5a2 2 0 0 1 3.5-1.3"/><path d="M7 20l-1 2M17 20l1 2"/></svg>
+            <h3>방문목욕</h3>
+          </div>
+          <div class="card-body">
+            <p>목욕 설비를 갖춘 차량으로 찾아가 요양보호사 두 명이 안전하게 목욕을 도와 드립니다.</p>
+            <p class="small muted">거동이 불편하셔도 이용하실 수 있습니다.</p>
+            <a class="btn btn-secondary btn-block" href="#contact" data-service="방문목욕">방문목욕 문의하기</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="steps" class="section" aria-labelledby="steps-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="steps-title">이용 절차</h2>
+        <p class="muted">등급이 아직 없으셔도 괜찮습니다. 신청부터 함께 도와 드립니다.</p>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="step-num" aria-hidden="true">1</span><h3>장기요양등급 신청</h3><p>국민건강보험공단(<a href="tel:15771000">1577-1000</a>)에 신청합니다. 서류 준비를 도와 드립니다.</p></li>
+        <li class="step"><span class="step-num" aria-hidden="true">2</span><h3>방문 조사·등급 판정</h3><p>공단 직원이 댁을 방문해 조사하고, 등급이 결정됩니다.</p></li>
+        <li class="step"><span class="step-num" aria-hidden="true">3</span><h3>센터 상담·계약</h3><p>어르신 상태와 원하시는 시간을 듣고 돌봄 계획을 함께 세웁니다.</p></li>
+        <li class="step"><span class="step-num" aria-hidden="true">4</span><h3>돌봄 시작</h3><p>정해진 날 찾아뵙고, 변화가 있으면 보호자님께 바로 알려 드립니다.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="about" class="section section-warm" aria-labelledby="about-title">
+    <div class="wrap about">
+      <div class="about-text">
+        <span class="kicker">대표 인사</span>
+        <h2 id="about-title">25년 경력 간호사가 직접 운영하는 센터입니다</h2>
+        <p>박미혜 대표는 약 25년 동안 간호사로 일해 왔습니다. 종합병원 병동 간호사·수간호사를 거쳐, 방문간호 전문기관에서 어르신 댁을 직접 찾아뵙는 재가 현장까지 두루 경험했습니다. 그 경험으로 어르신의 작은 변화도 놓치지 않겠습니다.</p>
+        <p><strong>대표·시설장 박미혜 (간호사)</strong></p>
+      </div>
+      <div class="logo-meaning">
+        <svg aria-hidden="true"><use href="#logo"/></svg>
+        <div>
+          <h3>로고에 담은 뜻</h3>
+          <p>서로 기대어 선 두 사람이 하트를 반씩 나눈 모습입니다. 어르신과 보호자, 그리고 저희 센터가 서로 의지하며 함께 걸어가겠다는 약속입니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section" aria-labelledby="contact-title">
+    <div class="wrap contact">
+      <div class="contact-info">
+        <h2 id="contact-title">오시는 길</h2>
+        <div class="map-card">
+          <p class="addr">경상남도 밀양시 밀성로2길 19<br><span class="small muted">(내이동 606) 1층</span></p>
+          <div class="map-links">
+            <a class="btn btn-secondary" href="https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%B0%80%EC%84%B1%EB%A1%9C2%EA%B8%B8%2019" target="_blank" rel="noopener">네이버 지도에서 보기</a>
+            <a class="btn btn-secondary" href="https://map.kakao.com/?q=%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%B0%80%EC%84%B1%EB%A1%9C2%EA%B8%B8%2019" target="_blank" rel="noopener">카카오맵에서 보기</a>
+          </div>
+        </div>
+        <dl class="info">
+          <dt>전화</dt><dd><a href="tel:0553548777">055-354-8777</a></dd>
+          <dt>팩스</dt><dd>055-354-2777</dd>
+          <dt>소식</dt><dd><a href="https://dajeongjaega.github.io/dajeong-blog/">센터 블로그</a></dd>
+        </dl>
+      </div>
+
+      <form class="form" id="consult" novalidate>
+        <div>
+          <h2>상담 신청</h2>
+          <p class="small muted">남겨 주시면 담당자가 전화드립니다.</p>
+        </div>
+        <div class="field" id="f-name">
+          <label class="label" for="name">어르신 성함</label>
+          <input class="input" id="name" name="name" type="text" autocomplete="off" required>
+          <p class="field-msg" id="name-msg">어르신 성함을 입력해 주세요.</p>
+        </div>
+        <div class="field" id="f-phone">
+          <label class="label" for="phone">보호자 연락처</label>
+          <input class="input" id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="010-0000-0000" required>
+          <p class="field-msg" id="phone-msg">연락받으실 전화번호를 입력해 주세요.</p>
+        </div>
+        <fieldset>
+          <legend>관심 있는 서비스 (여러 개 선택)</legend>
+          <div class="chips">
+            <label class="chip"><input type="checkbox" name="service" value="방문간호"><span><svg aria-hidden="true"><use href="#i-check"/></svg>방문간호</span></label>
+            <label class="chip"><input type="checkbox" name="service" value="방문요양"><span><svg aria-hidden="true"><use href="#i-check"/></svg>방문요양</span></label>
+            <label class="chip"><input type="checkbox" name="service" value="방문목욕"><span><svg aria-hidden="true"><use href="#i-check"/></svg>방문목욕</span></label>
+          </div>
+        </fieldset>
+        <button class="btn btn-primary btn-block" type="submit">상담 신청하기</button>
+        <div class="form-result" id="form-result" role="status" aria-live="polite"></div>
+        <p class="small muted">입력하신 정보는 상담 목적으로만 사용합니다.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <a class="logo" href="#top"><svg aria-hidden="true"><use href="#logo"/></svg><span>다정재가복지센터</span></a>
+      <p class="footer-meta" style="margin-top:12px">재가노인복지시설 · 방문간호 · 방문요양 · 방문목욕</p>
+    </div>
+    <div class="footer-meta">
+      <p>경상남도 밀양시 밀성로2길 19 (내이동 606) 1층</p>
+      <p>전화 <a href="tel:0553548777">055-354-8777</a> · 팩스 055-354-2777</p>
+      <p>대표 박미혜</p>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar">
+  <div class="callbar-text"><small>상담 전화</small><strong>055-354-8777</strong></div>
+  <a class="btn btn-primary btn-pill" href="tel:0553548777" aria-label="다정재가복지센터에 전화하기"><svg aria-hidden="true"><use href="#i-phone"/></svg>전화하기</a>
+</div>
+
+<script>
+// 상담 신청을 받을 주소(Formspree, Google Apps Script 등)를 정하면 여기에 넣습니다.
+// 비어 있으면 신청 내용을 보내지 않고 전화 상담을 안내합니다.
+var FORM_ENDPOINT = "";
+
+(function(){
+  var btn=document.querySelector('.menu-btn'), nav=document.getElementById('mobile-nav');
+  function setOpen(o){nav.classList.toggle('open',o);btn.setAttribute('aria-expanded',o);btn.setAttribute('aria-label',o?'메뉴 닫기':'메뉴 열기');
+    btn.querySelector('path').setAttribute('d',o?'M6 6l12 12M18 6L6 18':'M4 6h16M4 12h16M4 18h16');}
+  btn.addEventListener('click',function(){setOpen(!nav.classList.contains('open'))});
+  nav.addEventListener('click',function(e){if(e.target.closest('a'))setOpen(false)});
+
+  document.querySelectorAll('[data-service]').forEach(function(a){
+    a.addEventListener('click',function(){
+      var v=a.getAttribute('data-service');
+      document.querySelectorAll('input[name=service]').forEach(function(c){if(c.value===v)c.checked=true});
+    });
+  });
+
+  var form=document.getElementById('consult'), out=document.getElementById('form-result');
+  function check(id,ok){var f=document.getElementById('f-'+id),i=document.getElementById(id);
+    f.classList.toggle('error',!ok);i.setAttribute('aria-invalid',!ok);
+    if(!ok)i.setAttribute('aria-describedby',id+'-msg');else i.removeAttribute('aria-describedby');return ok;}
+  function show(html){out.innerHTML=html;out.classList.add('show');}
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var nameEl=document.getElementById('name'), phoneEl=document.getElementById('phone');
+    var name=nameEl.value.trim(), phone=phoneEl.value.replace(/[^0-9]/g,'');
+    var ok1=check('name',name.length>0), ok2=check('phone',phone.length>=9);
+    if(!ok1){nameEl.focus();return}
+    if(!ok2){phoneEl.focus();return}
+    var services=[].map.call(form.querySelectorAll('input[name=service]:checked'),function(c){return c.value});
+    if(!FORM_ENDPOINT){
+      show('<p><strong>온라인 접수는 준비 중입니다.</strong> 번거로우시겠지만 전화로 말씀해 주시면 바로 상담해 드립니다.</p><a class="btn btn-primary btn-block" href="tel:0553548777">055-354-8777 전화하기</a>');
+      return;
+    }
+    var b=form.querySelector('button[type=submit]');b.disabled=true;b.textContent='보내는 중…';
+    fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify({name:name,phone:phoneEl.value.trim(),services:services.join(', ')})})
+    .then(function(r){if(!r.ok)throw 0;form.reset();show('<p><strong>상담 신청을 받았습니다.</strong> 담당자가 곧 전화드리겠습니다.</p>')})
+    .catch(function(){show('<p><strong>신청이 전송되지 않았습니다.</strong> 전화로 말씀해 주세요.</p><a class="btn btn-primary btn-block" href="tel:0553548777">055-354-8777 전화하기</a>')})
+    .finally(function(){b.disabled=false;b.textContent='상담 신청하기'});
+  });
+})();
+</script>
 </body>
 </html>
